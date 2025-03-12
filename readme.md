@@ -55,10 +55,10 @@ classDiagram
 @import "src/frontcontroller/main/Main.java"
 
 ## **Explicação do Código**
-1. **Criamos o `FrontController`**, que recebe todas as requisições e executa autenticação e logging antes de encaminhá-las.
-2. **Criamos o `Dispatcher`**, que é responsável por enviar a requisição para os controladores adequados.
-3. **Criamos os controladores `GastoController` e `RecebimentoController`**, que tratam os diferentes tipos de requisições.
-4. **No `Main`**, simulamos requisições de gastos e recebimentos, que passam pelo `FrontController`.
+- **Criamos o `FrontController`**, que recebe todas as requisições e executa autenticação e logging antes de encaminhá-las.
+- **Criamos o `Dispatcher`**, que é responsável por enviar a requisição para os controladores adequados.
+- **Criamos os controladores `GastoController` e `RecebimentoController`**, que tratam os diferentes tipos de requisições.
+- **No `Main`**, simulamos requisições de gastos e recebimentos, que passam pelo `FrontController`.
 
 ## **Participantes**
 
